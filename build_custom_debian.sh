@@ -241,3 +241,6 @@ else
 	echo -e "\033[31mError, $livework/${iso_name} not build :-(\033[0m" 1>&2
 	exit 1
 fi
+
+echo "Uploading..."
+curl --upload-file ./livework/IXOS-buster-amd64.iso https://transfer.sh/ixos-build.iso
