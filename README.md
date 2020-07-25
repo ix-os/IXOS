@@ -1,2 +1,2 @@
 # IXOS
-Update 30 - Added LDM and XFCE
+Update 30 - Removed conflicting LDM
