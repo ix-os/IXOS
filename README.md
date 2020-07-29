@@ -1,2 +1,2 @@
 # IXOS
-Update Sharpshot - 11.*
+Update Sharpshot - Added KDE
