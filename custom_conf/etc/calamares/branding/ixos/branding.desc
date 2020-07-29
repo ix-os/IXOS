@@ -1,0 +1,28 @@
+---
+componentName:   ixos
+welcomeStyleCalamares: true
+
+strings:
+    productName:         IXOS GNU/Linux
+    shortProductName:    IXOS testing
+    version:             11.38 (Sharpshot)
+    shortVersion:        11.38
+    versionedName:       IXOS 11.38 (Sharpshot)
+    shortVersionedName:  IXOS 11.38
+    bootloaderEntryName: IXOS
+    productUrl:          https://integrumx.com
+    supportUrl:          https://integrumx.com
+    releaseNotesUrl:     https://git.integrumx.com/releases/ixos/sharpshot/releasenotes
+
+images:
+    productLogo:         "ixos-logo.png"
+    productIcon:         "ixos-logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"
+

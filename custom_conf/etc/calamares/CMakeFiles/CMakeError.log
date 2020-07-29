@@ -1,0 +1,19 @@
+Determining if the function ped_file_system_clobber exists failed with the following output:
+Change Dir: /etc/calamares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ea3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ea3a.dir/build.make CMakeFiles/cmTC_1ea3a.dir/build
+make[1]: Entering directory '/etc/calamares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ea3a.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/usr/include/parted  -DCHECK_FUNCTION_EXISTS=ped_file_system_clobber   -o CMakeFiles/cmTC_1ea3a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1ea3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ea3a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ped_file_system_clobber    -rdynamic CMakeFiles/cmTC_1ea3a.dir/CheckFunctionExists.c.o  -o cmTC_1ea3a /usr/lib/x86_64-linux-gnu/libparted.so /usr/lib/x86_64-linux-gnu/libparted-fs-resize.so 
+/usr/bin/ld: CMakeFiles/cmTC_1ea3a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `ped_file_system_clobber'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1ea3a.dir/build.make:89: cmTC_1ea3a] Error 1
+make[1]: Leaving directory '/etc/calamares/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1ea3a/fast] Error 2
+
+

@@ -1,2 +1,2 @@
 # IXOS
-Update 30 - Removed conflicting LDM
+Update Sharpshot - 11.*

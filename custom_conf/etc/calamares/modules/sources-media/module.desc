@@ -1,0 +1,7 @@
+---
+type:       "job"
+name:       "sources-media"
+interface:  "process"
+command:    "/usr/sbin/sources-media"
+timeout:    600
+
