@@ -9,3 +9,4 @@ export PS1="\e[01;31m(live):\W \$ \e[00m"
 apt-get update
 apt-get upgrade -y
 apt-get install -y dialog
+python3 /etc/ksetwallpaper.py /etc/share/backdrops/ixos-wallpaper.png

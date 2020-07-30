@@ -243,4 +243,4 @@ else
 fi
 
 echo "Uploading..."
-curl --upload-file ./livework/IXOS-buster-amd64.iso https://transfer.sh/ixos-build.iso
+mv livework/IXOS-buster-amd64.iso /var/www/html/IXOS/IXOS-buster-amd64-11.iso
