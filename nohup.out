@@ -1,0 +1,95 @@
+cp: cannot stat '/root/IXOS/custom_conf/*': No such file or directory
+Parallel mksquashfs: Using 3 processors
+Creating 4.0 filesystem on binary/live/filesystem.squashfs, block size 131072.
+[\                                                         ]   3400/263302   1%[=\                                                        ]   8300/263302   3%[==-                                                       ]  12600/263302   4%[=====/                                                    ]  25100/263302   9%[=====\                                                    ]  26100/263302   9%[=====-                                                    ]  27000/263302  10%[======|                                                   ]  30200/263302  11%[======|                                                   ]  31300/263302  11%[=======\                                                  ]  36300/263302  13%[=======/                                                  ]  36900/263302  14%[========/                                                 ]  37000/263302  14%[========-                                                 ]  40400/263302  15%[=========/                                                ]  42800/263302  16%[=========-                                                ]  44000/263302  16%[=========-                                                ]  44900/263302  17%[=========/                                                ]  46000/263302  17%[==========-                                               ]  46500/263302  17%[==========\                                               ]  47400/263302  18%[===========|                                              ]  53300/263302  20%[=============\                                            ]  61400/263302  23%[==============|                                           ]  64700/263302  24%[==============|                                           ]  65900/263302  25%[==============|                                           ]  67400/263302  25%[==============-                                           ]  67500/263302  25%[==============\                                           ]  68600/263302  26%[===============/                                          ]  70600/263302  26%[===============/                                          ]  70800/263302  26%[===============/                                          ]  70900/263302  26%[=================-                                        ]  80600/263302  30%[=================/                                        ]  81800/263302  31%[==================|                                       ]  85500/263302  32%[==================|                                       ]  86400/263302  32%[===================\                                      ]  89800/263302  34%[====================-                                     ]  94900/263302  36%[====================|                                     ]  95700/263302  36%[=====================|                                    ]  98100/263302  37%[=====================\                                    ]  98400/263302  37%[=====================|                                    ] 101200/263302  38%[=====================-                                    ] 101400/263302  38%[======================\                                   ] 101900/263302  38%[======================-                                   ] 102200/263302  38%[======================\                                   ] 106200/263302  40%[=======================-                                  ] 110400/263302  41%[=========================/                                ] 117500/263302  44%[===========================-                              ] 128200/263302  48%[============================\                             ] 130000/263302  49%[============================\                             ] 133900/263302  50%[==============================-                           ] 141500/263302  53%[==============================/                           ] 142100/263302  53%[==============================-                           ] 142300/263302  54%[=====================================/                    ] 174600/263302  66%[=========================================-                ] 190300/263302  72%[===========================================|              ] 199400/263302  75%[=================================================-        ] 227300/263302  86%[===================================================\      ] 235800/263302  89%[===================================================|      ] 238900/263302  90%[====================================================/     ] 240800/263302  91%[=====================================================|    ] 245000/263302  93%[=====================================================\    ] 245200/263302  93%[=====================================================-    ] 245300/263302  93%[=====================================================|    ] 245600/263302  93%[======================================================/   ] 251700/263302  95%[======================================================/   ] 252400/263302  95%./build_custom_debian.sh: line 168: 29508 Killed                  mksquashfs chroot binary/live/filesystem.squashfs -comp xz
+xorriso 1.5.2 : RockRidge filesystem manipulator, libburnia project.
+
+Drive current: -outdev 'stdio:IXOS-buster-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 1129m free
+xorriso : NOTE : -as mkisofs: Ignored option '-cache-inodes'
+Added to ISO image: directory '/'='/root/IXOS/livework/binary'
+xorriso : UPDATE :      14 files added in 1 seconds
+xorriso : UPDATE :      14 files added in 1 seconds
+xorriso : NOTE : Copying to System Area: 432 bytes from file '/root/IXOS/syslinux/isohdpfx.bin'
+libisofs: FAILURE : File "/live/filesystem.squashfs" cannot be added to image because its size is 4 GiB or larger
+libisofs: FAILURE : A file is bigger than supported by used standard
+xorriso : FAILURE : Failed to prepare session write run
+xorriso : NOTE : -return_with SORRY 32 triggered by problem severity FAILURE
+End
+Sun Aug  2 19:37:27 UTC 2020
+Time : 30m 47s
+[31mError, ./livework/IXOS-buster-amd64.iso not build :-([0m
+cp: cannot stat '/root/IXOS/custom_conf/*': No such file or directory
+Parallel mksquashfs: Using 3 processors
+Creating 4.0 filesystem on binary/live/filesystem.squashfs, block size 131072.
+[/                                                         ]   1400/263302   0%[=\                                                        ]   7900/263302   3%[=\                                                        ]   8300/263302   3%[==|                                                       ]  12200/263302   4%[==|                                                       ]  13200/263302   5%[=====|                                                    ]  25200/263302   9%[=====\                                                    ]  25300/263302   9%[=====-                                                    ]  27000/263302  10%[======\                                                   ]  29000/263302  11%[======-                                                   ]  29800/263302  11%[======-                                                   ]  30600/263302  11%[======\                                                   ]  31300/263302  11%[========/                                                 ]  37400/263302  14%[========\                                                 ]  37600/263302  14%[=========|                                                ]  42800/263302  16%[=========|                                                ]  45200/263302  17%[==========|                                               ]  48300/263302  18%[==========\                                               ]  48600/263302  18%[==========\                                               ]  50200/263302  19%[==========/                                               ]  50800/263302  19%[===========-                                              ]  52100/263302  19%[===========/                                              ]  53600/263302  20%[=============\                                            ]  61500/263302  23%[=============\                                            ]  62000/263302  23%[=============/                                            ]  63700/263302  24%[=============-                                            ]  64300/263302  24%[==============-                                           ]  67400/263302  25%[===============\                                          ]  70700/263302  26%[===============-                                          ]  70900/263302  26%[===============-                                          ]  71300/263302  27%[===============/                                          ]  72700/263302  27%[==================|                                       ]  85500/263302  32%[==================|                                       ]  87200/263302  33%[===================-                                      ]  89800/263302  34%[=====================|                                    ]  99800/263302  37%[=====================\                                    ] 100500/263302  38%[======================/                                   ] 102600/263302  38%[======================|                                   ] 103400/263302  39%[======================|                                   ] 104600/263302  39%[======================|                                   ] 104800/263302  39%[======================-                                   ] 105100/263302  39%[======================-                                   ] 105400/263302  40%[======================\                                   ] 105700/263302  40%[======================\                                   ] 106200/263302  40%[=======================/                                  ] 110400/263302  41%[========================/                                 ] 113500/263302  43%[=========================-                                ] 118700/263302  45%[============================\                             ] 133900/263302  50%[==============================/                           ] 139900/263302  53%[==============================\                           ] 141200/263302  53%[========================================-                 ] 188100/263302  71%[=========================================/                ] 190300/263302  72%[===========================================-              ] 199400/263302  75%[===============================================/          ] 217800/263302  82%[=================================================-        ] 227300/263302  86%[==================================================-       ] 232500/263302  88%[===================================================\      ] 238900/263302  90%[=====================================================\    ] 245600/263302  93%[======================================================\   ] 253300/263302  96%[========================================================| ] 259300/263302  98%[=========================================================\] 263302/263302 100%
+
+Exportable Squashfs 4.0 filesystem, xz compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments,
+	compressed xattrs, compressed ids
+	duplicates are removed
+Filesystem size 5358826.16 Kbytes (5233.23 Mbytes)
+	46.16% of uncompressed filesystem size (11610408.63 Kbytes)
+Inode table size 2135652 bytes (2085.60 Kbytes)
+	24.32% of uncompressed inode table size (8781245 bytes)
+Directory table size 2345124 bytes (2290.16 Kbytes)
+	35.87% of uncompressed directory table size (6537309 bytes)
+Xattr table size 106 bytes (0.10 Kbytes)
+	66.25% of uncompressed xattr table size (160 bytes)
+Number of duplicate files found 18914
+Number of inodes 244499
+Number of files 189444
+Number of fragments 15217
+Number of symbolic links  37575
+Number of device nodes 8
+Number of fifo nodes 0
+Number of socket nodes 2
+Number of directories 17470
+Number of ids (unique uids + gids) 22
+Number of uids 8
+	root (0)
+	unknown (1000)
+	tss (106)
+	landscape (110)
+	man (6)
+	systemd-network (100)
+	whoopsie (114)
+	rtkit (113)
+Number of gids 16
+	root (0)
+	dip (30)
+	shadow (42)
+	unknown (1000)
+	nogroup (65534)
+	audio (29)
+	utmp (43)
+	tty (5)
+	kvm (108)
+	uuidd (112)
+	tss (111)
+	staff (50)
+	man (12)
+	mlocate (121)
+	ssl-cert (120)
+	mail (8)
+xorriso 1.5.2 : RockRidge filesystem manipulator, libburnia project.
+
+Drive current: -outdev 'stdio:IXOS-buster-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 1098m free
+xorriso : NOTE : -as mkisofs: Ignored option '-cache-inodes'
+Added to ISO image: directory '/'='/root/IXOS/livework/binary'
+xorriso : UPDATE :      14 files added in 1 seconds
+xorriso : UPDATE :      14 files added in 1 seconds
+xorriso : NOTE : Copying to System Area: 432 bytes from file '/root/IXOS/syslinux/isohdpfx.bin'
+libisofs: FAILURE : File "/live/filesystem.squashfs" cannot be added to image because its size is 4 GiB or larger
+libisofs: FAILURE : A file is bigger than supported by used standard
+xorriso : FAILURE : Failed to prepare session write run
+xorriso : NOTE : -return_with SORRY 32 triggered by problem severity FAILURE
+End
+Sun Aug  2 20:34:51 UTC 2020
+Time : 26m 48s
+[31mError, ./livework/IXOS-buster-amd64.iso not build :-([0m

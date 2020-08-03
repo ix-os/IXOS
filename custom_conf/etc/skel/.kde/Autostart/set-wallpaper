@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 /etc/ksetwallpaper.py /etc/share/backdrops/ixos-wallpaper.png

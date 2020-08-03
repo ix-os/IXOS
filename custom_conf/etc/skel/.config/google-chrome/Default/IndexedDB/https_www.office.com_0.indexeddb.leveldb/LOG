@@ -1,0 +1,5 @@
+2020/08/02-17:55:15.773 549e Reusing MANIFEST /root/.config/google-chrome/Default/IndexedDB/https_www.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/02-17:55:17.791 5688 Level-0 table #5: started
+2020/08/02-17:55:17.797 5688 Level-0 table #5: 217 bytes OK
+2020/08/02-17:55:17.802 5688 Delete type=0 #3
+2020/08/02-17:55:17.803 5688 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
