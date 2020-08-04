@@ -93,3 +93,34 @@ End
 Sun Aug  2 20:34:51 UTC 2020
 Time : 26m 48s
 [31mError, ./livework/IXOS-buster-amd64.iso not build :-([0m
+cp: cannot overwrite non-directory 'chroot/bin' with directory '/root/IXOS/custom_conf/bin'
+ls: cannot access 'chroot/boot/vmlinuz*': No such file or directory
+cp: missing destination file operand after 'binary/live/vmlinuz'
+Try 'cp --help' for more information.
+ls: cannot access 'chroot/boot/initrd*': No such file or directory
+cp: missing destination file operand after 'binary/live/initrd'
+Try 'cp --help' for more information.
+Parallel mksquashfs: Using 3 processors
+Creating 4.0 filesystem on binary/live/filesystem.squashfs, block size 131072.
+xorriso 1.5.2 : RockRidge filesystem manipulator, libburnia project.
+
+Drive current: -outdev 'stdio:IXOS-buster-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 12.2g free
+xorriso : NOTE : -as mkisofs: Ignored option '-cache-inodes'
+Added to ISO image: directory '/'='/root/IXOS/livework/binary'
+xorriso : UPDATE :      11 files added in 1 seconds
+xorriso : UPDATE :      11 files added in 1 seconds
+xorriso : NOTE : Copying to System Area: 432 bytes from file '/root/IXOS/syslinux/isohdpfx.bin'
+libisofs: NOTE : Aligned image size to cylinder size by 496 blocks
+ISO image produced: 1024 sectors
+Written to medium : 1024 sectors at LBA 0
+Writing to 'stdio:IXOS-buster-amd64.iso' completed successfully.
+
+End
+Mon Aug  3 19:46:47 UTC 2020
+Time : 0m 7s
+ISO build in ./livework/IXOS-buster-amd64.iso
+Uploading...
+mv: cannot stat 'livework/IXOS-buster-amd64.iso': No such file or directory
