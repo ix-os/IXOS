@@ -11,3 +11,4 @@ apache.sh
 apt-get install -y apache2 php5
 echo "Hello world" > /var/www/index.html
 ```
+Contributors please follow the example above for scripts. 
