@@ -1,0 +1,9 @@
+PRETTY_NAME="IXOS GNU/Linux 14 (Sharpshot)"
+NAME="IXOS GNU/Linux"
+VERSION_ID="14"
+VERSION="14 (Sharpshot)"
+VERSION_CODENAME=sharpshot
+ID=ixos
+HOME_URL="https://www.integrumx.org/"
+SUPPORT_URL="https://www.integrumx.org/support"
+BUG_REPORT_URL="https://bugs.integrumx.org/"

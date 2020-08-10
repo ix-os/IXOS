@@ -1,6 +1,6 @@
 #!/bin/bash
-# author : Oros
-# 2015-02-03
+# CustomDebian author : Oros
+# IXOS author : Linkus 
 # Many thanks to netblue30 http://l3net.wordpress.com/2013/09/21/how-to-build-a-debian-livecd/
 
 function help()
@@ -243,4 +243,4 @@ else
 fi
 
 echo "Uploading..."
-mv livework/IXOS-buster-amd64.iso /var/www/html/IXOS/IXOS-buster-amd64-11.iso
+mv ~/IXOS/livework/IXOS-buster-amd64.iso /var/www/html/IXOS/IXOS-buster-amd64-14.iso
