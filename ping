@@ -1,1 +1,11 @@
-echo "pong!"
+cd livework
+chroot chroot /bin/bash <<"EOT"
+
+echo "Pong from chroot! " && cat etc/os-release
+echo $$
+EOT
+exit
+cd ..
+
+
+
