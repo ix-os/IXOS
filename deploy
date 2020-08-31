@@ -1,3 +1,4 @@
+
 git add .
-git commit -m "remove debian-installer from main path"
+git commit -m "deploying"
 git push origin master -f
