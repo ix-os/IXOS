@@ -1,0 +1,18 @@
+cd livework
+chroot chroot
+# Here, your are in the chroot of your liveCD Debian
+mount none -t proc /proc
+mount none -t sysfs /sys
+mount none -t devpts /dev/pts
+export HOME=/root
+export LC_ALL=
+
+echo "Pong from chroot!"
+
+umount /proc /sys /dev/pts
+exit
+# exit chroot
+cd ..
+
+
+
